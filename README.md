@@ -100,7 +100,7 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-streamlit run app_v6_2.py
+streamlit run EMG_app.py
 ```
 
 If PowerShell blocks environment activation, either use Command Prompt:
@@ -113,7 +113,7 @@ or run the environment's executables directly without activating it:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m streamlit run app_v6_2.py
+.\.venv\Scripts\python.exe -m streamlit run EMG.app.py
 ```
 
 ### Ubuntu
@@ -125,7 +125,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-streamlit run app_v6_2.py
+streamlit run EMG_app.py
 ```
 
 After launch, Streamlit normally displays a local address such as **http://localhost:8501**. Open it in your browser. Stop the server with `Ctrl+C`.
@@ -174,14 +174,7 @@ For LOSO experiments, prepare recordings with correct subject identifiers. When 
 
 ## User Manual
 
-A detailed LaTeX manual is available as `EMG_User_Manual_TeXstudio.tex` (if included in your repository). It covers Windows/Ubuntu installation, method descriptions, user-interface controls, experimental workflows, and troubleshooting.
-
-To compile it in **TeXstudio on Windows**, select **Options → Configure TeXstudio → Build → Default Compiler → PdfLaTeX**, then press **F5**. You can also run:
-
-```bash
-pdflatex EMG_User_Manual_TeXstudio.tex
-pdflatex EMG_User_Manual_TeXstudio.tex
-```
+A detailed user manual is available at [Link](https://xyz)
 
 ## Troubleshooting
 
