@@ -99,6 +99,7 @@ Install Python from [python.org](https://www.python.org/downloads/) and enable *
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
+python -m pip install streamlit
 python -m pip install -r requirements.txt
 streamlit run EMG_app.py
 ```
