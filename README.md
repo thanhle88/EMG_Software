@@ -219,11 +219,7 @@ EMG-Processing-and-Factor-Analysis/
 
 Consider adding `.venv/`, `__pycache__/`, `.streamlit/secrets.toml`, large raw datasets, and generated outputs to `.gitignore`.
 
-## License and Citation
-
-**License:** Add a `LICENSE` file with the terms you choose before publishing.
-
-**Citation:** If you publish an associated paper or software release, add its bibliographic details and/or a `CITATION.cff` file here. No publication or license is assumed in this README.
 
 ## Acknowledgments
 
+This work was supported under the project I-Démo Régionalisé, Contract No. DOS0243034/00.
