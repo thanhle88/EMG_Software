@@ -204,7 +204,7 @@ A suggested GitHub repository layout is:
 
 ```text
 EMG-Processing-and-Factor-Analysis/
-├── app_v6_2.py
+├── EMG_app.py
 ├── requirements.txt
 ├── README.md
 ├── EMG_User_Manual_TeXstudio.tex   # optional
