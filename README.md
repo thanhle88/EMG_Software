@@ -1,6 +1,6 @@
 # EMG Processing and Factor Analysis
 
-A **Streamlit-based research application** for multichannel electromyography (EMG) preprocessing, factor analysis, feature engineering, classification, and comparative benchmarking.
+A **Web-based application** for multichannel electromyography (EMG) preprocessing, factor analysis, feature engineering, classification, and comparative benchmarking.
 
 The application provides an interactive workflow for inspecting EMG recordings, experimenting with signal-processing methods, analyzing latent components, and evaluating machine-learning classifiers.
 
